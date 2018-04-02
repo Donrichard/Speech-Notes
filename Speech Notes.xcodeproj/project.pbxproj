@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		794A1E7E20729646006F4599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E7D20729646006F4599 /* AppDelegate.swift */; };
-		794A1E8020729646006F4599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E7F20729646006F4599 /* ViewController.swift */; };
+		794A1E8020729646006F4599 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E7F20729646006F4599 /* NotesViewController.swift */; };
 		794A1E8320729646006F4599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794A1E8120729646006F4599 /* Main.storyboard */; };
 		794A1E8520729646006F4599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794A1E8420729646006F4599 /* Assets.xcassets */; };
 		794A1E8820729646006F4599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794A1E8620729646006F4599 /* LaunchScreen.storyboard */; };
+		794A1E90207296F3006F4599 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E8F207296F3006F4599 /* DetailViewController.swift */; };
+		794A1E9220729703006F4599 /* AddTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E9120729703006F4599 /* AddTitleViewController.swift */; };
+		794A1E942072970A006F4599 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E932072970A006F4599 /* Recorder.swift */; };
+		794A1E9620729740006F4599 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E9520729740006F4599 /* NotesTableViewCell.swift */; };
+		794A1E9A2072982B006F4599 /* ZeroNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E992072982B006F4599 /* ZeroNotesView.swift */; };
+		794A1E9C20729908006F4599 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794A1E9B20729908006F4599 /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		794A1E7A20729646006F4599 /* Speech Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speech Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		794A1E7D20729646006F4599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		794A1E7F20729646006F4599 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		794A1E7F20729646006F4599 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 		794A1E8220729646006F4599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		794A1E8420729646006F4599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		794A1E8720729646006F4599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		794A1E8920729646006F4599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794A1E8F207296F3006F4599 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		794A1E9120729703006F4599 /* AddTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTitleViewController.swift; sourceTree = "<group>"; };
+		794A1E932072970A006F4599 /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		794A1E9520729740006F4599 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		794A1E992072982B006F4599 /* ZeroNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroNotesView.swift; sourceTree = "<group>"; };
+		794A1E9B20729908006F4599 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				794A1E7D20729646006F4599 /* AppDelegate.swift */,
-				794A1E7F20729646006F4599 /* ViewController.swift */,
+				794A1E7F20729646006F4599 /* NotesViewController.swift */,
+				794A1E9520729740006F4599 /* NotesTableViewCell.swift */,
+				794A1E992072982B006F4599 /* ZeroNotesView.swift */,
+				794A1E9120729703006F4599 /* AddTitleViewController.swift */,
+				794A1E8F207296F3006F4599 /* DetailViewController.swift */,
+				794A1E932072970A006F4599 /* Recorder.swift */,
+				794A1E9B20729908006F4599 /* Notes.swift */,
 				794A1E8120729646006F4599 /* Main.storyboard */,
 				794A1E8420729646006F4599 /* Assets.xcassets */,
 				794A1E8620729646006F4599 /* LaunchScreen.storyboard */,
@@ -136,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				794A1E8020729646006F4599 /* ViewController.swift in Sources */,
+				794A1E942072970A006F4599 /* Recorder.swift in Sources */,
+				794A1E90207296F3006F4599 /* DetailViewController.swift in Sources */,
+				794A1E9220729703006F4599 /* AddTitleViewController.swift in Sources */,
+				794A1E9A2072982B006F4599 /* ZeroNotesView.swift in Sources */,
+				794A1E8020729646006F4599 /* NotesViewController.swift in Sources */,
 				794A1E7E20729646006F4599 /* AppDelegate.swift in Sources */,
+				794A1E9620729740006F4599 /* NotesTableViewCell.swift in Sources */,
+				794A1E9C20729908006F4599 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
